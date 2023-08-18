@@ -1,0 +1,16 @@
+[package]
+name = "factorio_watch"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ctrlc = "3.4.0"
+lazy-regex = "3.0.1"
+nix = "0.26.2"
+regex = "1.9.3"
+tokio = {version="1", features=["full"]}
+tracing = "0.1"
+tracing-subscriber = "0.3"
+webhook = "2.1.2"
